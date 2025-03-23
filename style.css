@@ -1,0 +1,140 @@
+/* first part of the webpage */
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: col;
+    flex-wrap: wrap;
+}
+
+.top_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.header_links {
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.mid_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.left_section_mid_header {
+    max-width: 500px;
+}
+
+.text {
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 16px;
+    width: 100px;
+    padding: 5px 0;
+}
+
+.image_header {
+    background-color: #6d7279;
+    padding: 50px;
+}
+/* end of 1st part */
+
+.mid_section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.big_text {
+    display: flex;
+    font-size: 24px;
+    font-weight: 900;
+    justify-content: center;
+    width: 100%;
+    max-width: 1300px;
+    flex-wrap: wrap;
+}
+
+.mid_section div {
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 3px;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.under_text {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    width: 100%;
+    margin-top: -20px;
+    flex-wrap: wrap;
+}
+
+.under_text p {
+    max-width: 120px;
+}
+/* end of mid section */
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style:italic;
+    max-width: 700px;
+}
+
+.quote span {
+    font-weight: bold;
+    padding-top: 175px;
+}
+
+/* end of quote section */
+.sign_up {
+    display: flex;
+    background-color: #3882F6;
+    max-width: 800px;
+    border-radius: 10px;
+    justify-self: center;
+    margin: 30px;
+    color: white;
+}
+
+.sign_up button {
+    width: 100px;
+    height: 40px;
+}
+
+/* end of sign up section */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+}
